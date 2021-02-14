@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+        #test {
+            width: 40rem;
+            height: 30rem;
+            border: 2px solid black;
+            background: pink;
+            position: absolute;
+            left: 3rem;
+            top: 100px;
+        }
+        #box {
+            position: relative;
+            /* if we assign posign relative which is immidiate parent of tag and then must set absolute position of immidiate child of this parent div then immidiate child work bases upon immidiate parent. */
+            width: 40rem;
+            height: 30rem;
+            border: 2px  solid red;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Position</h1>
+<p>This is the paragraph which will we show position property. This is the paragraph which will we show position property. This is the paragraph which will we show position property. This is the paragraph which will we show position property. This is the paragraph which will we show position property</p>
+<div id="box">
+    <div id="test"></div>
+</div>
+
+<p>Helloooooooooooooooooooooooooooooooooooooooooooooooooooooo HelloooooooooooooooooooooHelloooooooooooooooooooooHelloooooooooooooooooooooHell oooooooooooooooooooooHelloooooooooooooooooooooHellooooooooooooooooooooo HelloooooooooooooooooooooHellooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
+</body>
+</html>

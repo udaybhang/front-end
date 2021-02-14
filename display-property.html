@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display property</title>
+    <style>
+        #div-1 {
+            /* display: block; its default prpoperty */
+            background-color: red;
+        }
+        #div-2 {
+            background-color: green;
+                    }
+        #span-1 {
+            /* display: inline; its default property */
+            background-color: yellow;
+        }
+        #span-2 {
+            background-color: violet;
+        }
+        #img {
+            /* display: inline; it does not work */
+            /* display: inline-block; its work inline-block  is manadetrry if you use width and height on inline tag*/
+            display: inline-block;
+            width: 8rem;
+            height: 6rem;
+        }
+    </style>
+</head>
+<body>
+                <div id="div-1">This is div</div>  
+                <span id="span-1">this is span</span>
+                <img src="https://www.filmibeat.com/ph-big/2019/07/ismart-shankar_156195627930.jpg" alt="dd" id="img">
+                <span id="span-2">This is another span</span>
+                <div id="div-2">This is another div</div>
+</body>
+</html>
